@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 設定檔案資料
-file_path = "fsae_A_2025_track.xlsx"
-output_path = "fsae_A_2025_track_xy.xlsx"
+file_path = "fsae_A_2025 - fsae_A_2025_track.xlsx"
+output_path = "fsae_A_2025_xy.xlsx"
 df = pd.read_excel(file_path)
 
 list_x, list_y, list_p = [], [], []

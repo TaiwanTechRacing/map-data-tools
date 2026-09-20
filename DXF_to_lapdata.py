@@ -471,6 +471,6 @@ def run_all_read_DXF(DXF_filename,excel_filename):#完整執行
     return (setedstart_sorted_segments)
 
 
-DXF_filename = "fsae_A_2025_track.dxf"
-excel_filename = "fsae_A_2025_track.xlsx"
+DXF_filename = "fsae_A_2025 - fsae_A_2025_track.dxf"
+excel_filename = "fsae_A_2025 - fsae_A_2025_track.dxf.xlsx"
 run_all_read_DXF(DXF_filename,excel_filename)
